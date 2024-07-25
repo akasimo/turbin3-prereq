@@ -1,0 +1,1 @@
+I defined wba wallet as "dev-wallet.json" and temp wallet as "temp-wallet.json"
