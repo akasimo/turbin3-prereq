@@ -1,4 +1,3 @@
-// use solana_idlgen;
 use solana_idlgen::idlgen;
 idlgen!(
     {

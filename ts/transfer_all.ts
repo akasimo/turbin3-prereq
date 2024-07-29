@@ -26,7 +26,7 @@ const connection = new Connection("https://api.devnet.solana.com");
         transaction.recentBlockhash = (await
             connection.getLatestBlockhash('confirmed')).blockhash;
         transaction.feePayer = from.publicKey;
-    // Calculate exact fee rate to transfer entire SOL amount out of account minus fees
+        // Calculate exact fee rate to transfer entire SOL amount out of account minus fees
         const fee = (await
             connection.getFeeForMessage(transaction.compileMessage(),
                 'confirmed')).value || 0;
